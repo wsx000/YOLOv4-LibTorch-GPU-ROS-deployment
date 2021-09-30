@@ -16,7 +16,12 @@ torchvision0.8.0
 4、修改detect_node.cpp中的modulePath为你的***.pt模型文件路径  
 
 测试结果：
-RTX2070下，帧率21FPS
+RTX2070下，帧率21FPS  
+
+  
+  更新：  
+  注意 utils.cpp里第172行代码有问题，我比较懒，就先不改啦，具体怎么改可看 
+  https://github.com/wsx000/YOLOv4-LibTorch-GPU-deployment/issues/2
 
 
 
